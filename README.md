@@ -1,10 +1,10 @@
-# xpub-epmc-testcafe
+# xpub-epmc-e2e
 
-End-to-end tests for xpub-epmc
+End-to-end tests for xpub-epmc.
 
 ## Configuration
 
-Add .env in the project root directory
+Add .env in the project root directory:
 
 ```
 PLUS_USERNAME='xxxxxxxx'
