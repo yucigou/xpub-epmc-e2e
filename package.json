@@ -1,0 +1,14 @@
+{
+  "name": "xpub-epmc-testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testcafe": "testcafe chrome test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
