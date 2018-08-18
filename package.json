@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testcafe": "testcafe chrome test/*.test.js"
+    "testcafe": "testcafe chrome testcafe/*.test.js",
+    "cypress": "cypress open"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.1.0"
   }
 }
