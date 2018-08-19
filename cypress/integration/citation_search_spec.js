@@ -10,7 +10,9 @@ describe('My First Test', function() {
 	  cy.get('input[name="Search"]').clear()
 	  cy.get('input[name="Search"]').type('blood')
 	  cy.get('button[type="submit"]').click()
-	  cy.get('form ~ div > div').parent().find('div').its('length').should('be.gt', 10)    	
+	  // cy.get('form ~ div > div').parent().find('div').its('length').should('be.gt', 10)
+	  // cy.get('form ~ div > div').parent().find('div').its('length').should('eq', 25)
+	  cy.get('form ~ div > div').parent().find('div').its('length').should('be.gte', 25)
 	}
   })
 })
